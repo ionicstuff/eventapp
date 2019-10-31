@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { EventsModule } from './events/events.module';
+import { UsersModule } from './users/users.module';
+import { NotificationsModule } from './notifications/notifications.module';
 
 
 @NgModule({
@@ -18,7 +20,9 @@ import { EventsModule } from './events/events.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    EventsModule
+    EventsModule,
+    UsersModule,
+    NotificationsModule
     
   ],
   providers: [],
